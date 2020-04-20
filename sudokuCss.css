@@ -1,0 +1,79 @@
+table {
+    border: 1px black solid;
+    border-collapse: collapse;
+    margin: 0 auto;
+    /*center the table*/
+}
+
+tr td {
+    border: 1px black solid;
+    text-align: center;
+    vertical-align: middle;
+}
+
+input {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border: 2px solid blue;
+    padding: 0;
+
+}
+
+.cell {
+    width: 1em;
+    height: 1em;
+    border-bottom: 4px solid;
+    border-left: 4px solid;
+    padding: 0.3em
+}
+
+.cell1 {
+    width: 1em;
+    height: 1em;
+    border-bottom: 4px solid;
+    border-left: 4px solid;
+    padding: 0.3em
+}
+
+.cell2 {
+    width: 1em;
+    height: 1em;
+    border-bottom: 4px solid;
+    border-left: 4px solid;
+    padding: 0.3em
+}
+
+.cell3 {
+    width: 1em;
+    height: 1em;
+    border-bottom: 4px solid;
+    border-left: 4px solid;
+    padding: 0.3em
+}
+
+.table {
+    border-top: 4px solid;
+    border-right: 4px solid;
+    border-collapse: collapse
+}
+
+.btn {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: red;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    width: 18%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sudoku Application</title>
+    <link rel="stylesheet" type="text/css" href="sudokuCss.css">
+    <script language="javascript" src="sudoku_generator.js"></script>
+    <script language="javascript" src="sudoku_solver.js"></script>
+</head>
+
+<body>
+    <button class="btn" type="submit" onclick='draw(this.id);' id="3">Get 3x3 Puzzle</button>
+    <button class="btn" type="submit" onclick='draw(this.id);' id="9">Get 9x9 Puzzle</button><br><br>
+    <button class="btn" type="submit" onClick="solve();">Solve Puzzle</button>
+    <button class="btn" type="submit" onClick="clear_input();">Clear</button><br>
+    <button class="btn" type="submit" onClick="validator();">Validate my puzzle</button>
+
+    <tr>
+        <td>
+            <span id="sudokuTable"></span>
+        </td>
+    </tr>
+
+</body>
+
+</html>
